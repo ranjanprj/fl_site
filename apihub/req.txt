@@ -1,0 +1,4 @@
+psycopg1.2
+bottle
+tweepy
+newspaper3k

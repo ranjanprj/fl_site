@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="/static/bootstrap/css/bootstrap-theme.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Static navbar -->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+                <a class="navbar-brand" href="#">Intrsted<i>in</i></i></a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul id="topnav" class="nav navbar-nav">
+                    <li id="topnav_home"><a href="#">Home</a></li>
+                    <li id="topnav_settings"><a href="#">Settings</a></li>
+                    <li id="topnav_about"><a href="#">About</a></li>
+
+                </ul>
+
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+        <!--/.container-fluid -->
+    </nav>
+    <!-- Signup  -->
+    <div id="signup_container" class="container">
+        <h1>signup</h1>
+        <div id="signuperror" class="alert alert-danger" style="display:none">
+            <strong>Error</strong> in Login in, email password do not match <a href="">Reset Password</a>
+        </div>
+
+
+        <form id="signup_form" method="POST">
+            <div class="form-group">
+                <label for="exampleInputEmail1">Name</label>
+                <input type="text" class="form-control" placeholder="Email" name="name" value="name">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" placeholder="Email" name="email" value="ranjanprj@gmail.com">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" placeholder="Password" name="pass" value="ranjanprj">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Repeat password</label>
+                <input type="password" class="form-control" placeholder="Password" name="repeat_pass" value="ranjanprj">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">App Name</label>
+                <input type="text" class="form-control" placeholder="app name" name="app_name" value="app1">
+            </div>
+
+            <button type="submit" class="btn btn-success btn-lg">Login</button>
+            <button class="btn btn-primary  btn-lg">Sign Up</button>
+        </form>
+
+    </div>
+
+    <!-- Login -->
+
+    <div id="login_container" class="container">
+        <h1>Login</h1>
+        <div id="loginerror" class="alert alert-danger" style="display:none">
+            <strong>Error</strong> in Login in, email password do not match <a href="">Reset Password</a>
+        </div>
+
+
+        <form id="login_form" method="POST">
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" placeholder="Email" name="email" value="ranjanprj@gmail.com">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" placeholder="Password" name="pass" value="ranjanprj">
+            </div>
+
+            <button type="submit" class="btn btn-success btn-lg">Login</button>
+            <button class="btn btn-primary  btn-lg">Sign Up</button>
+        </form>
+
+    </div>
+
+
+    <!-- Reset -->
+
+    <div id="reset_container" class="container">
+        <h1>Reset</h1>
+        <div id="reseterror" class="alert alert-danger" style="display:none">
+            <strong>Error</strong> in Login in, email password do not match <a href="">Reset Password</a>
+        </div>
+
+
+        <form id="reset_form" method="POST">
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" placeholder="Email" name="email" value="ranjanprj@gmail.com">
+            </div>
+            <button type="submit" class="btn btn-success btn-lg">Login</button>
+            <button class="btn btn-primary  btn-lg">Sign Up</button>
+        </form>
+
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="/static/libs/jquery.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/static/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/static/www/js/intrstedin.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="/static/libs/jquery.js"></script>
+
+    <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
+    <script type="text/javascript" src="/static/www/js/intrstedin.js"></script>
+</head>
+
+<body>
+    <form action="/stripe_charge" method="POST" id="payment-form">
+        <span class="payment-errors"></span>
+
+        <div class="form-row">
+            <label>
+      <span>Card Number</span>
+      <input type="text" size="20" data-stripe="number" value = "4242 4242 4242 4242">
+    </label>
+        </div>
+
+        <div class="form-row">
+            <label>
+      <span>Expiration (MM/YY)</span>
+      <input type="text" size="2" data-stripe="exp_month" value = "12">
+    </label>
+            <span> / </span>
+            <input type="text" size="2" data-stripe="exp_year" value="18">
+        </div>
+
+        <div class="form-row">
+            <label>
+      <span>CVC</span>
+      <input type="text" size="4" data-stripe="cvc" value="123">
+    </label>
+        </div>
+
+
+        <input type="submit" class="submit" value="Submit Payment">
+    </form>
+</body>
+
+</html>

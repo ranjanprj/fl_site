@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="theme-color" content="#2196f3">
+
+<title>Carwash</title>
+<link rel="stylesheet" href="../../Framework7-1.5.2/dist/css/framework7.material.css">
+<link rel="stylesheet"
+	href="../../Framework7-1.5.2/dist/css/framework7.material.colors.css">
+<link
+	href="http://fonts.googleapis.com/css?family=Roboto:400,300,500,700"
+	rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/material-icons.css">
+
+<link rel="icon" href="img/icon.png">
+</head>
+
+<body>
+	<div class="statusbar-overlay"></div>
+	<div class="panel-overlay"></div>
+	<div class="panel panel-left panel-cover">
+		<div class="view navbar-fixed">
+			<div class="pages">
+				<div data-page="panel-left" class="page">
+					<div class="navbar">
+						<div class="navbar-inner">
+							<div class="center">Menu</div>
+						</div>
+					</div>
+					<div class="page-content">
+						<div class="content-block">
+							<p>
+								Choose Options on Your Carwash <a href="#" class="close-panel">close
+									me</a>
+							</p>
+						</div>
+						<div class="content-block-title">Carwash</div>
+						<div class="list-block">
+							<ul>
+								<li><a href="forms.html" class="item-link close-panel">
+										<div class="item-content">
+											<div class="item-media">
+												<i class="icon icon-f7"></i>
+											</div>
+											<div class="item-inner">
+												<div class="item-title">Forms</div>
+											</div>
+										</div>
+								</a></li>
+
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="panel panel-right panel-reveal">
+		<div class="view view-right">
+			<div class="pages navbar-fixed">
+				<div data-page="panel-right1" class="page">
+					<div class="navbar">
+						<div class="navbar-inner">
+							<div class="center">Right Panel</div>
+						</div>
+					</div>
+					<div class="page-content">
+						<div class="content-block">
+							<p>
+								This is a right side panel. You can close it by clicking outsite
+								or on this link: <a href="#" class="close-panel">close me</a>.
+								You can put here anything, even another isolated view, try it:
+							</p>
+						</div>
+						<div class="list-block">
+							<ul>
+
+								<li><a href="panel-right2.html" class="item-link">
+										<div class="item-content">
+											<div class="item-inner">
+												<div class="item-title">Right panel page 2</div>
+											</div>
+										</div>
+								</a></li>
+								<li><a href="panel-right3.html" class="item-link">
+										<div class="item-content">
+											<div class="item-inner">
+												<div class="item-title">Right panel page 3</div>
+											</div>
+										</div>
+								</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="views">
+		<div class="view view-main">
+			<div class="pages navbar-fixed">
+	
+			
+				<div data-page="index" class="page">
+					<div class="navbar">
+						<div class="navbar-inner">
+							<div class="center">Carwash</div>
+							<div class="right">
+								<a href="#" class="open-panel link icon-only"><i
+									class="icon icon-bars"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="page-content">
+						<div class="content-block-title">On Demand Car Wash</div>
+
+
+						<div class="list-block">
+							<ul>
+								
+								
+									<div class="content-block-title">Login</div>
+									<form id="sign-in-form" class="list-block inputs-list">
+										<ul>
+											<li>
+												<div class="item-content">
+													<div class="item-media">
+														<i class="icon material-icons">person_outline</i>
+													</div>
+													<div class="item-inner">
+														<div class="item-title label">E-mail</div>
+														<div class="item-input">
+															<input type="text" placeholder="E-mail" name="email" value="test@test.com"/>
+														</div>
+													</div>
+												</div>
+											</li>
+
+
+											<li>
+												<div class="item-content">
+													<div class="item-media">
+														<i class="icon material-icons">lock_outline</i>
+													</div>
+													<div class="item-inner">
+														<div class="item-title label">Password</div>
+														<div class="item-input">
+															<input type="password" placeholder="Password" name="pass" value="Abcd1234" />
+														</div>
+													</div>
+												</div>
+											</li>
+											
+										</ul>
+
+									</form>
+									</li>
+									<li>
+												<div class="content-block">
+													<a id="sign-in-btn" href=""
+														class="button button-big button-fill button-raised color-teal">Sign
+														In</a>
+
+												</div>
+
+											</li>
+								<li class="accordion-item"><a href="#"
+									class="item-link item-content">
+										<div class="item-inner">
+											<div class="item-title">Register</div>
+										</div>
+								</a>
+									<div class="accordion-item-content" style="">
+										<div class="content-block">
+											<div class="content-block-title">Register</div>
+											<form class="list-block inputs-list">
+												<ul>
+													<li>
+														<div class="item-content">
+															<div class="item-media">
+																<i class="icon material-icons">person_outline</i>
+															</div>
+															<div class="item-inner">
+																<div class="item-title label">E-mail</div>
+																<div class="item-input">
+																	<input type="text" placeholder="E-mail" />
+																</div>
+															</div>
+														</div>
+													</li>
+
+													<li>
+														<div class="item-content">
+															<div class="item-media">
+																<i class="icon material-icons">lock_outline</i>
+															</div>
+															<div class="item-inner">
+																<div class="item-title label">Password</div>
+																<div class="item-input">
+																	<input type="password" placeholder="Password" />
+																</div>
+															</div>
+														</div>
+													</li>
+													<li>
+														<div class="content-block">
+															<a href="test.html"
+																class="button button-big button-fill button-raised color-purple">Sign
+																In</a>
+
+														</div>
+
+													</li>
+
+													</ul>
+											</form>
+										</div>
+									</div></li>
+								<li></li>
+
+
+							</ul>
+						</div>
+
+
+					</div>
+				</div>
+			</div>
+
+
+
+
+		</div>
+
+
+
+
+	</div>
+
+ 
+
+
+
+	<div class="view view-main"></div>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="../../Framework7-1.5.2/dist/js/framework7.js"></script>
+	<script type="text/javascript" src="js/carwash.js"></script>
+	
+	
+	
+   <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAERBavpdPb4ITPYXasWUHXKUr1XYBerys">
+    </script>
+	
+	
+<script src="https://checkout.stripe.com/checkout.js"></script>
+
+
+<script>
+var handler = StripeCheckout.configure({
+  key: 'pk_test_6pRNASCoBOKtIshFeQd4XMUh',
+  image: 'https://stripe.com/img/documentation/checkout/marketplace.png',
+  locale: 'auto',
+  token: function(token) {
+    // You can access the token ID with `token.id`.
+    // Get the token ID to your server-side code for use.
+    console.log(token);
+    mainView.router.loadPage('fourth-screen.html');
+  }
+});
+
+
+
+// Close Checkout on page navigation:
+window.addEventListener('popstate', function() {
+  handler.close();
+});
+
+</script>
+	
+</body>
+
+</html>
